@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+// Tugas Dirumah Pada Tanggal 7 Maret 2020 == Membuat Go To, Continue dan Break
+// Nama : Firgie Ahmad == NIM ETE10190123
+
+int main (){
+	//Membuat Program Break Dirumah Pada Tanggal 7 Maret 2020
+	
+	for  ( int i = 100 ; i <= 110 ; i++) {
+		if (i > 107) break;
+		cout << i << endl;
+	}
+	return 0;
+}
